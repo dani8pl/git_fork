@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Viaje</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>FORMULARIO VIAJE</h1>
+    <form action="http://example.com" method="get">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" maxlength="10">
+        </div><br>
+        <div>
+            <label for="apellido">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" maxlength="10">
+        </div><br>
+
+        <div>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+        </div><br>
+        <div>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="puntuacion" id="sexo" value="1punto">
+            <label for="sexo">hombre</label>
+            <input type="radio" name="puntuacion" id="sexo" value="2pùntos">
+            <label for="sexo">mujer</label>
+        </div><br>
+        <div>
+            <label for="viaje">Destino:</label>
+            <select id="viaje" name="destino">
+                <option value="Madrid">Madrid</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Valencia">Valencia</option>
+                <option value="Sevilla">Sevilla</option>
+            </select>
+            <div><br>
+                <input type="checkbox" id="condiciones" name="condiciones" value="Aceptadas">
+                <label for="condiciones">Declaro haber leido y acepto las condiciones del viaje</label>
+            </div><br>
+            <input type="submit">
+
+    </form><br><br>
+    <a href="index.html">Ir a link</a>
+
+</body>
+
+</html>

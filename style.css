@@ -1,3 +1,15 @@
 h1 {
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
     color: red;
+}
+
+input {
+    border: 2px solid burlywood;
+}
+
+a {
+    font-weight: bold;
+    color: cadetblue;
+    text-transform: uppercase;
 }
